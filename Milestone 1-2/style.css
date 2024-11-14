@@ -1,0 +1,116 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Left Section Styling */
+.left-section {
+  flex: 1;
+  padding: 20px;
+  background: linear-gradient(135deg, #0f0c29,#070128, #24243e);
+  /* background-color: #000; /* Black background */
+  color: white;
+  border-radius: 10px 0 0 10px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+/* Left Side Headings Styling */
+.left-section h3 {
+  font-size: 18px;
+  color: #fff; /* White text color */
+  padding: 10px;
+  
+  background-color: #070128; /* Black box background */
+  border: 2px solid #f41ecd;
+  border-radius: 10px;
+  
+   box-shadow: 0 0 15px rgba(239, 98, 180, 0.5);
+  margin-bottom: 20px;
+}
+
+/* Right Side Headings Styling */
+.right-section h3 {
+  font-size: 18px;
+  color: #000; /* Black text color */
+  padding: 10px;
+  background-color: #fff; /* White box background */
+  border: 2px solid #f41ecd;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(239, 98, 180, 0.5);
+  margin-bottom: 20px;
+}
+
+/* Main Heading Styling (h1 for "Static Interactive Resume") */
+h1 {
+  text-align: center;
+  color: #000; /* Black text color */
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-shadow: none; /* Removed shadow */
+}
+
+/* Paragraph Styling (Removed Border for Career Objective) */
+.bordered-paragraph {
+  padding: 10px;
+  color: white;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+
+/* Right Section Styling */
+.right-section {
+  flex: 1.5;
+  padding: 20px;
+}
+
+/* List Styling */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #333;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e63946;
+  color: white;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(230, 57, 70, 0.5);
+}
+
+button:hover {
+  background-color: #ff737c;
+}
